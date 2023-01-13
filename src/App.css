@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto';
+  padding-top: 50px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+tbody .MuiTableRow-root {
+  transition: opacity 0.2s ease;
+}
+
+tbody .MuiTableRow-root:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.searchInput__wrapper {
+  margin-bottom: 50px;
+}
